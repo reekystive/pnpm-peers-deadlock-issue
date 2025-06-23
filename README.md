@@ -27,6 +27,9 @@ registry-mock
 Open another terminal and run:
 
 ```bash
+# Add a new user to the mock registry (enter any username and password)
+npm adduser --registry=http://localhost:4873
+
 # Publish the mock packages in `mock-packages` to the local mock registry
 cd mock-packages
 for dir in */; do (cd "$dir" && npm publish --registry=http://localhost:4873); done
