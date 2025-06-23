@@ -1,0 +1,8 @@
+{
+  "name": "@editor-kit/roadster",
+  "version": "1.0.0",
+  "dependencies": {},
+  "peerDependencies": {
+    "@pnpm-deadlock-issue-9673/pkg-a": "*"
+  }
+}

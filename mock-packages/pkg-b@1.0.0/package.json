@@ -1,0 +1,11 @@
+{
+  "name": "@pnpm-deadlock-issue-9673/pkg-b",
+  "version": "1.0.0",
+  "dependencies": {
+    "@editor-kit/roadster": "1.0.0"
+  },
+  "peerDependencies": {
+    "@pnpm-deadlock-issue-9673/pkg-a": "*",
+    "@editor-kit/roadster": "2.0.0"
+  }
+}
